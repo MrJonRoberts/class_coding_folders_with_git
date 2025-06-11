@@ -1,10 +1,10 @@
 # REPO REQ:
-./create_class_git.py
-./clone_repo.py
-./students.txt
+create_class_git.py
+clone_repo.py
+students.txt
 .expected_hash
-./LICENSE
-./README.md
+LICENSE
+README.md
 .gitignore
 
 # pycharm
