@@ -5,7 +5,7 @@ import sys
 # Inherit your normal env, but turn off SSL verification for Git
 GIT_ENV = os.environ.copy()
 GIT_ENV["GIT_SSL_NO_VERIFY"] = "true"
-REPO_URL = "https://github.com/MrJonRoberts/class_repo_test.git"  # replace with your repo URL
+REPO_URL = "https://github.com/MrJonRoberts/class_coding_folders_with_git.git"  # replace with your repo URL
 
 def clone_branch(repo_url, branch_name):
     """
