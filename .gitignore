@@ -6,6 +6,7 @@ students.txt
 LICENSE
 README.md
 .gitignore
+teacher/
 
 # pycharm
 .idea
