@@ -1,5 +1,5 @@
 # CLASS CODING WITH GIT
-This repository contains some scripts that are used to create a branch for each student in the class and then have a save (commit and push) script to run.
+This repository contains scripts used to create a branch for each student in the class and then run a save (commit and push) script.
 Using Git: Teaching Digital Technology.
 
 Requirements:
@@ -48,8 +48,13 @@ i.	Add the following to the .gitignore:
 9. Create a students.txt file with a single student ID on each line.
 10.	Run create_class.py
 11.	Distribute clone_repo.py to each student and have them run it. (can provide via link to file in master branch)
+
+12.	https://github.com/MrJonRoberts/class_coding_folders_with_git/blob/master/teacher/clone_repo.py
+
 a.	They should run it and enter an ID: eg xx123213
+
 b.	This will pull the branch for their ID student
-12.	They use the folders as usual.
-13.	Run save_work.py to commit (with the default date) at the end of each session. (could modify to have it auto save in the background)
+
+13.	They use the folders as usual.
+14.	Run save_work.py to commit (with the default date) at the end of each session. (could modify to have it auto save in the background)
     a.	Minimal security checks to see if the hash is the same and won't run.
