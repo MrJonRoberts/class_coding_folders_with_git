@@ -53,4 +53,3 @@ b.	This will pull the branch for their ID student
 12.	They use the folders as usual.
 13.	Run save_work.py to commit (with the default date) at the end of each session. (could modify to have it auto save in the background)
     a.	Minimal security checks to see if the hash is the same and won't run.
-
