@@ -31,7 +31,7 @@ i.	Add the following to the .gitignore:
   
   students.txt
   
-  expected_hash
+  .expected_hash
   
   LICENSE
   
