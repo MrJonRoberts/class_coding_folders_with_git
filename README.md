@@ -39,15 +39,17 @@ i.	Add the following to the .gitignore:
 
   .gitignore
 
+  teacher/*
+
 5.	Add the save_work.py to the folder.
-6.	Edit clone_repo.py with your repo URL as REPO_URL
-7.	Create a students.txt with a single student ID on each line.
-8.	Commit and Push to GitHub
-9.	Run clone_repo.py
-10.	Distribute clone_repo.py to each student and have them run it. (can provide via link to file in master branch)
+6.	
+7.	Commit and Push to GitHub
+8.	Edit clone_repo.py with your repo URL as REPO_URL
+9. Create a students.txt file with a single student ID on each line.
+10.	Run create_class.py
+11.	Distribute clone_repo.py to each student and have them run it. (can provide via link to file in master branch)
 a.	They should run it and enter an ID: eg xx123213
 b.	This will pull the branch for their ID student
-11.	They use the folders as usual.
-12.	Run save_work.py to commit (with the default date) at the end of each session. (could modify to have it auto save in the background)
+12.	They use the folders as usual.
+13.	Run save_work.py to commit (with the default date) at the end of each session. (could modify to have it auto save in the background)
     a.	Minimal security checks to see if the hash is the same and won't run.
-
